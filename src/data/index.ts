@@ -31,7 +31,7 @@ export const AVATAR = {
 };
 
 export const ABOUT = {
-  title: `New title here`,
+  title: `New title here - ....`,
   description: `New description here`,
 };
 
