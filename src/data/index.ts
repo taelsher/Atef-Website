@@ -53,17 +53,17 @@ export const LINKS = [
   },
   {
     title: "ARC",
-    url: "https://x.com/emapeire",
+    url: "https://arc.elsherbeni.com/",
     icon: XIcon,
   },
   {
     title: "ACES",
-    url: "https://cv.emapeire.xyz",
+    url: "https://aces-society.org/",
     icon: FileTextIcon,
   },
   {
     title: "EE Web",
-    url: "https://link.emapeire.xyz",
+    url: "https://electrical.mines.edu/",
     icon: LinkIcon,
   },
 ];
