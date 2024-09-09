@@ -70,8 +70,8 @@ export const LINKS = [
 
 export const CAREER = [
   {
-    company: "Frontend Lab",
-    link: "https://github.com/thefrontendlab",
+    company: "Curriculum Vitae",
+    link: "/assets/_00_Elsherbeni_CV_August_2024.pdf",
     badges: ["Hybrid"],
     title: "Software Developer and Technical Researcher",
     start: "Jul, 2021",
@@ -79,56 +79,56 @@ export const CAREER = [
     description:
       "Developing and researching new technologies and tools for the frontend community.",
   },
-  {
-    company: "Next.js Argentina",
-    link: "https://github.com/nextjsargentina",
-    badges: ["Hybrid"],
-    title: "Developer Experience Architect",
-    start: "Aug, 2023",
-    end: "Present",
-    description: "Building a non-profit open community of Next.js Argentina.",
-  },
-  {
-    company: "BaseHub",
-    link: "https://basehub.com",
-    badges: ["Remote"],
-    title: "Developer Relations",
-    start: "Mar, 2024",
-    end: "Apr, 2024",
-    description:
-      "Working on the product developer team to help developers build better apps with BaseHub CMS and its native AI.",
-  },
-  {
-    company: "Smat.io",
-    link: "https://smat.io",
-    badges: ["Remote"],
-    title: "QA Tester and Frontend Developer",
-    start: "Aug, 2022",
-    end: "Aug, 2023",
-    description: `Led QA testing, using Jest and Playwright, ensuring web applications perform flawlessly.
-    Collaborated on TDD implementation, optimizing code quality and minimizing bugs.
-    Also, contributed to developing user-friendly interfaces with React.js, significantly enhancing user experiences.`,
-  },
-  {
-    company: "Maker DAO",
-    link: "https://makerdao.com",
-    badges: ["Remote"],
-    title: "Technical Writer and Translator",
-    start: "Feb, 2022",
-    end: "Aug, 2022",
-    description: `Authored and translated technical documentation, including whitepapers,
-    guides, and tutorials, to facilitate user understanding of blockchain and DeFi concepts.`,
-  },
-  {
-    company: "El Chaperón",
-    badges: ["On-site"],
-    title: "Web Designer and Community Manager",
-    start: "Jan, 2016",
-    end: "Jan, 2019",
-    description: `Responsive website development and design in WordPress.
-    Online tourist services of the city of Rosario.
-    Endorsed by the Rosario Hotel Association and Tourist Entity (ETUR).`,
-  },
+  // {
+  //   company: "Next.js Argentina",
+  //   link: "https://github.com/nextjsargentina",
+  //   badges: ["Hybrid"],
+  //   title: "Developer Experience Architect",
+  //   start: "Aug, 2023",
+  //   end: "Present",
+  //   description: "Building a non-profit open community of Next.js Argentina.",
+  // },
+  // {
+  //   company: "BaseHub",
+  //   link: "https://basehub.com",
+  //   badges: ["Remote"],
+  //   title: "Developer Relations",
+  //   start: "Mar, 2024",
+  //   end: "Apr, 2024",
+  //   description:
+  //     "Working on the product developer team to help developers build better apps with BaseHub CMS and its native AI.",
+  // },
+  // {
+  //   company: "Smat.io",
+  //   link: "https://smat.io",
+  //   badges: ["Remote"],
+  //   title: "QA Tester and Frontend Developer",
+  //   start: "Aug, 2022",
+  //   end: "Aug, 2023",
+  //   description: `Led QA testing, using Jest and Playwright, ensuring web applications perform flawlessly.
+  //   Collaborated on TDD implementation, optimizing code quality and minimizing bugs.
+  //   Also, contributed to developing user-friendly interfaces with React.js, significantly enhancing user experiences.`,
+  // },
+  // {
+  //   company: "Maker DAO",
+  //   link: "https://makerdao.com",
+  //   badges: ["Remote"],
+  //   title: "Technical Writer and Translator",
+  //   start: "Feb, 2022",
+  //   end: "Aug, 2022",
+  //   description: `Authored and translated technical documentation, including whitepapers,
+  //   guides, and tutorials, to facilitate user understanding of blockchain and DeFi concepts.`,
+  // },
+  // {
+  //   company: "El Chaperón",
+  //   badges: ["On-site"],
+  //   title: "Web Designer and Community Manager",
+  //   start: "Jan, 2016",
+  //   end: "Jan, 2019",
+  //   description: `Responsive website development and design in WordPress.
+  //   Online tourist services of the city of Rosario.
+  //   Endorsed by the Rosario Hotel Association and Tourist Entity (ETUR).`,
+  // },
 ];
 
 const TAGS = {
