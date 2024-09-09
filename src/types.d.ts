@@ -23,7 +23,10 @@ export interface CareerProps {
   end: string
   description: string
 }
-
+export interface PublicationProps {
+  title: string
+  link?: string
+}
 export interface TagsProps {
   name: string
   icon: React.ComponentType<React.SVGProps<SVGSVGElement>>

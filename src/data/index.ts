@@ -67,7 +67,36 @@ export const LINKS = [
     icon: LinkIcon,
   },
 ];
-
+export const PUBLICATION = [
+  {
+    title: "Journal Publications",
+    link: "/assets/_01_Elsherbeni_Journal_Articles_August_2024.pdf",
+  }, 
+  {
+    title: "Books",
+    link: "/assets/_02_Elsherbeni_Books_Book_Chapters_September_2024.pdf",
+  },
+  {
+    title: "Invited Seminars",
+    link: "/assets/_03_Elsherbeni_Invited_Seminars_September_2024.pdf",
+  },
+  {
+    title: "Conference Proceedings",
+    link: "/assets/_04_Elsherbeni_Conference_Proceedings_September_2024.pdf",
+  },
+  {
+    title: "Conference Abstracts",
+    link: "/assets/_05_Elsherbeni_Conference_Abstracts_September_2024.pdf",
+  },
+  {
+    title: "Software Packages",
+    link: "/assets/_06_Elsherbeni_Software_September_2024.pdf",
+  },
+  {
+    title: "Short Courses",
+    link: "/assets/_07_Elsherbeni_Short_Courses_September_2024.pdf",
+  }
+];
 export const CAREER = [
   {
     company: "Curriculum Vitae",
@@ -78,7 +107,7 @@ export const CAREER = [
     end: "Present",
     description:
       "Developing and researching new technologies and tools for the frontend community.",
-  },
+  }
   // {
   //   company: "Next.js Argentina",
   //   link: "https://github.com/nextjsargentina",

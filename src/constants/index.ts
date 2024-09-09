@@ -1,10 +1,11 @@
-import { AVATAR, ABOUT, LINKS, CAREER, PROJECTS } from "@/data";
+import { AVATAR, ABOUT, LINKS, CAREER, PROJECTS, PUBLICATION } from "@/data";
 import type {
   AvatarProps,
   AboutProps,
   LinksProps,
   CareerProps,
   ProjectProps,
+  PublicationProps,
 } from "@/types";
 
 export const data = {
@@ -12,6 +13,7 @@ export const data = {
   about: ABOUT as AboutProps,
   links: LINKS as LinksProps[],
   career: CAREER as CareerProps[],
+  publication: PUBLICATION as PublicationProps[],
   projects: PROJECTS as ProjectProps[],
 };
 
@@ -20,7 +22,7 @@ export const links = [
   { title: "Personal", label: "career", url: "/career" },
   { title: "Teaching", label: "career", url: "/projects" },
   { title: "Research", label: "career", url: "/career" },
-  { title: "Publications", label: "career", url: "/career" },
+  { title: "Publications", label: "publication", url: "/publication" },
   { title: "Activities", label: "career", url: "/career" },
   { title: "Software", label: "career", url: "/career" },
   // { title: 'Career', label: 'career', url: '/career' },
