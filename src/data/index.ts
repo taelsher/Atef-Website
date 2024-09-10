@@ -23,7 +23,7 @@ import { PNPMIcon } from "@/components/icons/tags/pnpm";
 import { VercelIcon } from "@/components/icons/tags/vercel";
 import { BasehubIcon } from "@/components/icons/tags/basehub";
 import { GraphQLIcon } from "@/components/icons/tags/graphql";
-import { FileTextIcon, LinkIcon, MailIcon } from "lucide-react";
+import { FileTextIcon, LinkIcon, MailIcon, NewspaperIcon } from "lucide-react";
 
 export const AVATAR = {
   name: "Atef Elsherbeni",
@@ -31,8 +31,8 @@ export const AVATAR = {
 };
 
 export const ABOUT = {
-  title: `New title here - ....`,
-  description: `New description here`,
+  title: 'Professor at Colorado School of Mines',
+  description: `IEEE-APS distinguished lecturer, and IEEE fellow'`,
 };
 
 export const LINKS = [
@@ -48,8 +48,8 @@ export const LINKS = [
   },
   {
     title: "News",
-    url: "mailto:me@emapeire.xyz",
-    icon: MailIcon,
+    url: "/news",
+    icon: NewspaperIcon,
   },
   {
     title: "ARC",
@@ -67,6 +67,20 @@ export const LINKS = [
     icon: LinkIcon,
   },
 ];
+export const NEWS = [
+  {
+  year:"2024",
+  start:"September",
+  description: "Dr. Atef Elsherbeni presented two papers and offered a short course at the combined ICEAA and IEEE APWC conferences during 3-6 of September 2024 in Lisbon, Portugal",
+  bullet1: "-Paper #1 entitled \"Pyramidally Shaped Absorbing Boundary for FDTD Simulations\" and was coauthored by members of the ARC group: Robert Jones, Joseph Diener, Alec Wess, and Jushua Cast.",
+  bullet2: "-Paper #2 entitled \"A Review of Radar Cross-Section evaluation of Canonical and Complex Objects\"",
+  bullet3: "-Short course entitled: \"Time Domain Simulation of Electromagnetic Problems Combined with Linear and Nonlinear Circuit Elements\"",
+  },
+  {
+  year: "2023", 
+  description: "Dr. Atef Elsherbeni received the 2023 Antennas and Propagation Society 2023 Harrington-Mittra Award in Computational Electromagnetics. Award cited Dr. Elsherbeni’s contribution to computational electromagnetics with hardware acceleration techniques.",
+  }
+]
 export const PUBLICATION = [
   {
     title: "Journal Publications",

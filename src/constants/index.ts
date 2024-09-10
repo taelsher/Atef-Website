@@ -1,4 +1,4 @@
-import { AVATAR, ABOUT, LINKS, CAREER, PROJECTS, PUBLICATION } from "@/data";
+import { AVATAR, ABOUT, LINKS, CAREER, PROJECTS, PUBLICATION, NEWS } from "@/data";
 import type {
   AvatarProps,
   AboutProps,
@@ -6,6 +6,7 @@ import type {
   CareerProps,
   ProjectProps,
   PublicationProps,
+  NewsProps,
 } from "@/types";
 
 export const data = {
@@ -15,6 +16,7 @@ export const data = {
   career: CAREER as CareerProps[],
   publication: PUBLICATION as PublicationProps[],
   projects: PROJECTS as ProjectProps[],
+  news: NEWS as NewsProps[],
 };
 
 export const links = [
