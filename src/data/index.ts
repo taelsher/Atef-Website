@@ -75,10 +75,13 @@ export const NEWS = [
   bullet1: "-Paper #1 entitled \"Pyramidally Shaped Absorbing Boundary for FDTD Simulations\" and was coauthored by members of the ARC group: Robert Jones, Joseph Diener, Alec Wess, and Jushua Cast.",
   bullet2: "-Paper #2 entitled \"A Review of Radar Cross-Section evaluation of Canonical and Complex Objects\"",
   bullet3: "-Short course entitled: \"Time Domain Simulation of Electromagnetic Problems Combined with Linear and Nonlinear Circuit Elements\"",
+  image1:"assets/ElsherShortCourse.jpg",
   },
   {
   year: "2023", 
   description: "Dr. Atef Elsherbeni received the 2023 Antennas and Propagation Society 2023 Harrington-Mittra Award in Computational Electromagnetics. Award cited Dr. Elsherbeni’s contribution to computational electromagnetics with hardware acceleration techniques.",
+  image1:"/assets/Atef_award.jpg",
+  image2:"/assets/Harrington-Mittra Award.jpg",
   }
 ]
 export const PUBLICATION = [

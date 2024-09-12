@@ -32,6 +32,8 @@ export interface NewsProps {
   bullet1:string
   bullet2:string
   bullet3: string
+  image1: string
+  image2: string
 }
 export interface PublicationProps {
   title: string

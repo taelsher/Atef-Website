@@ -12,6 +12,8 @@ export function NewsItem({
   bullet1,
   bullet2, 
   bullet3,
+  image1,
+  image2, 
 }: NewsProps) {
   return (
     <>
@@ -35,7 +37,12 @@ export function NewsItem({
         <li>{bullet3}</li> <br></br>
        </ul>
       }
-
+      {
+        <div className ="mt-1 dark:text-neutral-400 text-neutral-600 text-pretty font-mono">
+          <img src={image1}></img>
+          <img src={image2}></img>
+        </div>
+      }
       {/* {link && (
         <Button
           variant='default'
