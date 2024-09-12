@@ -32,7 +32,7 @@ export const AVATAR = {
 
 export const ABOUT = {
   title: 'Professor at Colorado School of Mines',
-  description: `IEEE-APS distinguished lecturer, and IEEE fellow'`,
+  description: `IEEE Life Fellow and ACES Fellow`,
 };
 
 export const LINKS = [
