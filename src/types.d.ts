@@ -24,16 +24,14 @@ export interface CareerProps {
   description: string
 }
 export interface NewsProps {
-  year: string
-  // title,
-  start: string
-  // end,
+  year:string
+  start:string
   description:string
   bullet1:string
   bullet2:string
-  bullet3: string
-  image1: string
-  image2: string
+  bullet3:string
+  image1?:string
+  image2?:string
 }
 export interface PublicationProps {
   title: string

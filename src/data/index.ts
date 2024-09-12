@@ -82,7 +82,7 @@ export const NEWS = [
   description: "Dr. Atef Elsherbeni received the 2023 Antennas and Propagation Society 2023 Harrington-Mittra Award in Computational Electromagnetics. Award cited Dr. Elsherbeni’s contribution to computational electromagnetics with hardware acceleration techniques.",
   image1:"/assets/Atef_award.jpg",
   image2:"/assets/Harrington-Mittra Award.jpg",
-  }
+  },
 ]
 export const PUBLICATION = [
   {
