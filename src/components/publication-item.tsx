@@ -17,7 +17,9 @@ export function PublicationItem({
         {start} — {end}
       </time> */}
       <h3 className='text-xl mt-1 font-bold text-neutral-900 dark:text-neutral-100'>
+        <a href = {link} target = "_blank" rel = "noopener noreferrer">
         {title}
+        </a>
       </h3>
       {/* <h4 className='text-lg mt-2 font-medium dark:text-neutral-100 text-neutral-900'>
         {title}
@@ -26,7 +28,7 @@ export function PublicationItem({
         {description}
       </p> */}
 
-      {link && (
+      {/* {link && (
         <Button
           variant='default'
           size={null}
@@ -43,7 +45,7 @@ export function PublicationItem({
             <ArrowRightIcon className='ms-2 size-4' />
           </a>
         </Button>
-      )}
+      )} */}
     </>
   )
 }
