@@ -11,7 +11,7 @@ export interface AboutProps {
 export interface LinksProps {
   title: string
   url: string
-  subLinks:[]
+  subLinks?:[]
   icon: React.ComponentType<React.SVGProps<SVGSVGElement>>
 }
 

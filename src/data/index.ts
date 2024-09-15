@@ -1,6 +1,3 @@
-import { GitHubIcon } from "@/components/icons/github";
-import { LinkedInIcon } from "@/components/icons/linkedin";
-import { XIcon } from "@/components/icons/x";
 import { CSSIcon } from "@/components/icons/tags/css";
 import { HTMLIcon } from "@/components/icons/tags/html";
 import { JavaScriptIcon } from "@/components/icons/tags/javascript";
@@ -23,7 +20,7 @@ import { PNPMIcon } from "@/components/icons/tags/pnpm";
 import { VercelIcon } from "@/components/icons/tags/vercel";
 import { BasehubIcon } from "@/components/icons/tags/basehub";
 import { GraphQLIcon } from "@/components/icons/tags/graphql";
-import { FileTextIcon, LinkIcon, MailIcon, NewspaperIcon } from "lucide-react";
+import { AwardIcon, Badge, FileTextIcon, LinkIcon, MailIcon, NewspaperIcon, Search } from "lucide-react";
 
 export const AVATAR = {
   name: "Atef Elsherbeni",
@@ -38,13 +35,13 @@ export const ABOUT = {
 export const LINKS = [
   {
     title: "Awards",
-    url: "https://github.com/emapeire",
-    icon: GitHubIcon,
+    url: "assets/_08_Elsherbeni_Awards_September_2024.pdf",
+    icon: AwardIcon,
   },
   {
     title: "Honors",
-    url: "https://linkedin.com/in/emanuelpeire",
-    icon: LinkedInIcon,
+    url: "/honors",
+    icon: Badge,
   },
   {
     title: "News",
@@ -54,7 +51,7 @@ export const LINKS = [
   {
     title: "ARC",
     url: "https://arc.elsherbeni.com/",
-    icon: XIcon,
+    icon: Search,
   },
   {
     title: "ACES",
