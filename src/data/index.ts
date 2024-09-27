@@ -40,7 +40,7 @@ export const LINKS = [
   },
   {
     title: "Honors",
-    url: "/honors",
+    url: "", //working on this page
     icon: Badge,
   },
   {
