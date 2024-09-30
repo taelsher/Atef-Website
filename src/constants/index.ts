@@ -20,7 +20,7 @@ export const data = {
 };
 //note that a lot of place holder url: "/" TODO fill in content wtih PDF assets.
 export const links = [
-  { title: "About", label: "about", url: ""},
+  { title: "About", label: "about", url: "/"},
   { title: "Personal", label: "career", url: "/career", subLinks: [
     {label: "curriculum viate", title: "Curriculum Vitae", url: "/assets/_00_Elsherbeni_CV_August_2024.pdf"}
   ] },
@@ -52,10 +52,7 @@ export const links = [
 
   { title: "Activities", label: "activities", url: "", subLinks: [
     {label: "news", title: "News", url:"/news"},
-    {label: "Memberships", title: "Memberships", url: "/"},
-    {label: "Professional", title: "Professional", url:"/"},
-    {label: "Invited Presentations", title: "Invited Presentations", url:"/"},
-    {label: "Consulting", title: "Consulting", url:"/"}
+    {label: "Invited Presentations", title: "Invited Presentations", url:"/assets/_10_Elsherbeni_Invited_Presentations_September_2024.pdf"},
   ] },
 
   { title: "Software", label: "software", url: "assets/_06_Elsherbeni_Software_September_2024.pdf" },

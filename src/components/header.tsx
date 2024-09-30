@@ -82,6 +82,8 @@ export function Header() {
               <Link
                 aria-label={link.label}
                 href={link.url}
+                rel = "noopener noreferrer"
+                target = "_blank"
                 className={clsx(
                   'relative block me-2 transition-colors ease-in-out py-2 md:px-4 px-2 rounded-md text-sm font-semibold text-neutral-800 dark:text-neutral-100',
                   {
