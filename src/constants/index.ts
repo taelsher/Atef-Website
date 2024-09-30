@@ -27,7 +27,7 @@ export const links = [
 
   { title: "Teaching", label: "teaching", url: "/projects", subLinks:[
     {label: "Graduate Students", title: "Graduate Students", url:"/"},
-    {label: "Short Courses", title: "Short Courses", url: "/"}
+    {label: "Short Courses", title: "Short Courses", url: "/assets/_07_Elsherbeni_Short_Courses_September_2024.pdf"}
   ] },
 
   { title: "Research", label: "research", url: "/career", subLinks: [
