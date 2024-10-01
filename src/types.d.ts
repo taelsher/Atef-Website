@@ -1,3 +1,5 @@
+import { ImgHTMLAttributes } from "react"
+
 export interface AvatarProps {
   name: string
   initials: string
@@ -6,6 +8,10 @@ export interface AvatarProps {
 export interface AboutProps {
   title: string
   description: string
+  linkedinlink: string
+  linkedin: string
+  googlescholarlink: string
+  googlescholar: string
 }
 
 export interface LinksProps {

@@ -65,7 +65,17 @@ export function Hero() {
       <div className="flex flex-col font-mono gap-4 dark:text-neutral-200 text-neutral-800 text-pretty">
         <h2>{about.title}</h2>
         <h3>{about.description}</h3>
-      </div>
+          <div className = "flex item-center space-x-4">
+          {/* LinkedIn Icon */}
+          <a href={about.linkedinlink} target="_blank" rel="noopener noreferrer">
+            <img src={about.linkedin} alt = "LinkedIn" style ={{width: '30px', height:'30px'}}/>
+          </a>
+          {/* google scholar Icon */}
+          <a href={about.googlescholarlink} target="_blank" rel="noopener noreferrer">
+            <img src={about.googlescholar} alt = "Google Scholar" style ={{width: '30px', height:'30px'}}/>
+          </a>
+          </div>
+        </div>
 
       <nav className="flex gap-x-4 pt-4">
         {links.map((link) => (

@@ -30,6 +30,10 @@ export const AVATAR = {
 export const ABOUT = {
   title: 'Professor at Colorado School of Mines',
   description: `IEEE Life Fellow and ACES Fellow`,
+  linkedin: "/assets/linkedin.png",
+  linkedinlink:"https://www.linkedin.com/in/atef-elsherbeni-4172733/",
+  googlescholar:"/assets/googlescholar.png",
+  googlescholarlink:"http://scholar.google.com/citations?user=B3mIYBMAAAAJ&hl=en",
 };
 
 export const LINKS = [
