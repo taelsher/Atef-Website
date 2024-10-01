@@ -49,7 +49,7 @@ export const LINKS = [
     icon: NewspaperIcon,
   },
   {
-    title: "ARC",
+    title: "ARC Lab",
     url: "https://arc.elsherbeni.com/",
     icon: Search,
   },
@@ -59,7 +59,7 @@ export const LINKS = [
     icon: FileTextIcon,
   },
   {
-    title: "EE Web",
+    title: "EE@Mines",
     url: "https://electrical.mines.edu/",
     icon: LinkIcon,
   },

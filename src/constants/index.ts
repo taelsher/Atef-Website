@@ -20,7 +20,7 @@ export const data = {
 };
 //note that a lot of place holder url: "/" TODO fill in content wtih PDF assets.
 export const links = [
-  { title: "About", label: "about", url: "/"},
+  { title: "Home", label: "home", url: "/"},
   { title: "Personal", label: "career", url: "/career", subLinks: [
     {label: "curriculum viate", title: "Curriculum Vitae", url: "/assets/_00_Elsherbeni_CV_August_2024.pdf"}
   ] },
