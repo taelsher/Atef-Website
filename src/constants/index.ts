@@ -45,7 +45,7 @@ export const links = [
     {label: 'short courses', title: 'Short Courses', url: 'assets/_07_Elsherbeni_Short_Courses_September_2024.pdf' }
   ] },
 
-  { title: "Advisees", label: "Advisees", url: "",},
+  { title: "Advisees", label: "Advisees", url: "/assets/_11_Elsherbeni_Advisees_September_2024.pdf",},
 
   { title: "Software", label: "software", url: "assets/_06_Elsherbeni_Software_September_2024.pdf" },
   // { title: 'Career', label: 'career', url: '/career' },
