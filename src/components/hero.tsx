@@ -52,7 +52,7 @@ export function Hero() {
         </div>
       </div>
 
-      <div className="flex flex-col items-center text-center mt-4">
+      <div className="flex flex-col items-center text-left mt-4">
         <div className="font-mono gap-2 dark:text-neutral-200 text-neutral-800 text-pretty">
           <h2>{about.title}</h2>
           <h3>{about.description}</h3>
