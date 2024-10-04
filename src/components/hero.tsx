@@ -3,7 +3,6 @@ import React from "react";
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 import { Tooltip, TooltipContent, TooltipTrigger } from "./ui/tooltip";
 import { Button } from "./ui/button";
-import { BadgeCheckIcon } from "lucide-react";
 import { data } from "../constants";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -25,8 +24,8 @@ export function Hero() {
   };
 
   return (
-    <>
-      <div className="flex flex-row">
+    <div className="flex flex-col items-center">
+      <div className="flex flex-row items-center">
         <a
           href="https://github.com/elsherbeni"
           target="_blank"
@@ -40,93 +39,84 @@ export function Hero() {
             </AvatarFallback>
           </Avatar>
         </a>
-      </div>
 
-      <div className="flex items-center flex-row gap-4">
-        <h1 className="flex dark:text-neutral-100 text-neutral-900 text-4xl font-bold text-balance">
-          Atef Elsherbeni
-        </h1>
-        <Tooltip>
-          <TooltipContent>
-            <p>Available</p>
-          </TooltipContent>
-        </Tooltip>
-      </div>
-
-      <div className="flex flex-col font-mono gap-4 dark:text-neutral-200 text-neutral-800 text-pretty">
-        <h2>{about.title}</h2>
-        <h3>{about.description}</h3>
-        <div className="flex item-center space-x-4">
-          <a
-            href={about.linkedinlink}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src={about.linkedin}
-              alt="LinkedIn"
-              style={{ width: "30px", height: "30px" }}
-            />
-          </a>
-          <a
-            href={about.googlescholarlink}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src={about.googlescholar}
-              alt="Google Scholar"
-              style={{ width: "30px", height: "30px" }}
-            />
-          </a>
+        <div className="flex flex-col ml-4">
+          <h1 className="dark:text-neutral-100 text-neutral-900 text-4xl font-bold text-balance">
+            Atef Elsherbeni
+          </h1>
+          <Tooltip>
+            <TooltipContent>
+              <p>Available</p>
+            </TooltipContent>
+          </Tooltip>
         </div>
       </div>
 
-      <nav className="flex gap-x-4 pt-4">
-        {links.map((link) => (
-          <Tooltip key={link.title}>
-            <TooltipTrigger asChild>
-              <Button
-                variant="secondary"
-                size={null}
-                key={link.title}
-                className="p-2 shadow rounded-lg"
-                asChild
-              >
-                <a
-                  key={link.title}
-                  href={link.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={link.title}
-                  className="flex justify-center items-center md:gap-2"
-                >
-                  <link.icon className="size-6 stroke-[1.5]" />
-                  <p className="hidden md:block">{link.title}</p>
-                </a>
-              </Button>
-            </TooltipTrigger>
-            <TooltipContent side="bottom" className="md:hidden">
-              <p>{link.title}</p>
-            </TooltipContent>
-          </Tooltip>
-        ))}
-      </nav>
+      <div className="flex flex-col items-center text-center mt-4">
+        <div className="font-mono gap-2 dark:text-neutral-200 text-neutral-800 text-pretty">
+          <h2>{about.title}</h2>
+          <h3>{about.description}</h3>
+          <div className="flex item-center space-x-4">
+            <a href={about.linkedinlink} target="_blank" rel="noopener noreferrer">
+              <img
+                src={about.linkedin}
+                alt="LinkedIn"
+                style={{ width: "30px", height: "30px" }}
+              />
+            </a>
+            <a href={about.googlescholarlink} target="_blank" rel="noopener noreferrer">
+              <img
+                src={about.googlescholar}
+                alt="Google Scholar"
+                style={{ width: "30px", height: "30px" }}
+              />
+            </a>
+          </div>
+        </div>
 
-      <div className="carousel-wrapper">
+        <nav className="flex flex-wrap justify-center gap-x-4 pt-4">
+          {links.map((link) => (
+            <Tooltip key={link.title}>
+              <TooltipTrigger asChild>
+                <Button
+                  variant="secondary"
+                  size={null}
+                  className="p-2 shadow rounded-lg"
+                  asChild
+                >
+                  <a
+                    href={link.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={link.title}
+                    className="flex justify-center items-center md:gap-2"
+                  >
+                    <link.icon className="size-6 stroke-[1.5]" />
+                    <p className="hidden md:block">{link.title}</p>
+                  </a>
+                </Button>
+              </TooltipTrigger>
+              <TooltipContent side="bottom" className="md:hidden">
+                <p>{link.title}</p>
+              </TooltipContent>
+            </Tooltip>
+          ))}
+        </nav>
+      </div>
+
+      <div className="carousel-wrapper w-full max-w-lg mt-6">
         <Slider {...settings}>
           <div>
-            <img src="/assets/image1.jpg" alt="Image 1" />
+            <img src="/assets/image1.jpg" alt="Image 1" className="w-full h-auto" />
           </div>
           <div>
-            <img src="/assets/image2.jpg" alt="Image 2" />
+            <img src="/assets/image2.jpg" alt="Image 2" className="w-full h-auto" />
           </div>
           <div>
-            <img src="/assets/image3.jpg" alt="Image 3" />
+            <img src="/assets/image3.jpg" alt="Image 3" className="w-full h-auto" />
           </div>
         </Slider>
       </div>
-    </>
+    </div>
   );
 }
-
