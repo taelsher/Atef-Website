@@ -1,11 +1,28 @@
+'use client';
+import React from "react";
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 import { Tooltip, TooltipContent, TooltipTrigger } from "./ui/tooltip";
 import { Button } from "./ui/button";
 import { BadgeCheckIcon } from "lucide-react";
 import { data } from "../constants";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 export function Hero() {
   const { avatar, about, links } = data;
+
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    nextArrow: <div className="slick-arrow slick-next">Next</div>,
+    prevArrow: <div className="slick-arrow slick-prev">Prev</div>,
+  };
 
   return (
     <>
@@ -29,33 +46,7 @@ export function Hero() {
         <h1 className="flex dark:text-neutral-100 text-neutral-900 text-4xl font-bold text-balance">
           Atef Elsherbeni
         </h1>
-        {/* <Button
-          variant="default"
-          size={null}
-          className="font-mono font-bold text-xs px-2 py-1 rounded-full hover:scale-105 transition-all ease-in-out duration-300"
-          asChild
-        >
-          <a
-            href="https://linkedin.com/in/emanuelpeire"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hidden md:flex"
-          >
-            Available
-          </a>
-        </Button> */}
         <Tooltip>
-          <TooltipTrigger asChild>
-            <a
-              href="https://linkedin.com/in/emanuelpeire"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Available"
-              className="md:hidden flex rounded-full hover:scale-105 transition-all ease-in-out duration-300"
-            >
-              <BadgeCheckIcon className="size-6 dark:fill-blue-400 fill-blue-300 stroke-[1.5]" />
-            </a>
-          </TooltipTrigger>
           <TooltipContent>
             <p>Available</p>
           </TooltipContent>
@@ -65,17 +56,31 @@ export function Hero() {
       <div className="flex flex-col font-mono gap-4 dark:text-neutral-200 text-neutral-800 text-pretty">
         <h2>{about.title}</h2>
         <h3>{about.description}</h3>
-          <div className = "flex item-center space-x-4">
-          {/* LinkedIn Icon */}
-          <a href={about.linkedinlink} target="_blank" rel="noopener noreferrer">
-            <img src={about.linkedin} alt = "LinkedIn" style ={{width: '30px', height:'30px'}}/>
+        <div className="flex item-center space-x-4">
+          <a
+            href={about.linkedinlink}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={about.linkedin}
+              alt="LinkedIn"
+              style={{ width: "30px", height: "30px" }}
+            />
           </a>
-          {/* google scholar Icon */}
-          <a href={about.googlescholarlink} target="_blank" rel="noopener noreferrer">
-            <img src={about.googlescholar} alt = "Google Scholar" style ={{width: '30px', height:'30px'}}/>
+          <a
+            href={about.googlescholarlink}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={about.googlescholar}
+              alt="Google Scholar"
+              style={{ width: "30px", height: "30px" }}
+            />
           </a>
-          </div>
         </div>
+      </div>
 
       <nav className="flex gap-x-4 pt-4">
         {links.map((link) => (
@@ -107,6 +112,21 @@ export function Hero() {
           </Tooltip>
         ))}
       </nav>
+
+      <div className="carousel-wrapper">
+        <Slider {...settings}>
+          <div>
+            <img src="/assets/image1.jpg" alt="Image 1" />
+          </div>
+          <div>
+            <img src="/assets/image2.jpg" alt="Image 2" />
+          </div>
+          <div>
+            <img src="/assets/image3.jpg" alt="Image 3" />
+          </div>
+        </Slider>
+      </div>
     </>
   );
 }
+
