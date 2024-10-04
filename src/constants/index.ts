@@ -21,22 +21,22 @@ export const data = {
 //note that a lot of place holder url: "/" TODO fill in content wtih PDF assets.
 export const links = [
   { title: "Home", label: "home", url: "/"},
-  { title: "Personal", label: "career", url: "/career", subLinks: [
+  { title: "Personal", label: "", url: "/", subLinks: [
     {label: "curriculum viate", title: "Curriculum Vitae", url: "/assets/_00_Elsherbeni_CV_August_2024.pdf"}
   ] },
 
-  { title: "Teaching", label: "teaching", url: "/projects", subLinks:[
+  { title: "Teaching", label: "teaching", url: "/", subLinks:[
     {label: "Undergraduate Courses", title: "Undergraduate Courses", url:"/"},
     {label: "Graduate Courses", title: "Graduate Courses", url: "/assets/_07_Elsherbeni_Short_Courses_September_2024.pdf"}
   ] },
 
-  { title: "Research", label: "research", url: "/career", subLinks: [
+  { title: "Research", label: "research", url: "/", subLinks: [
     {title: "Research Projects", label: "Research Projects", url: "/"},
     {title: "Research Topics", label: "Research Topics", url:"/"},
     {title: "Grants", label: "Grants", url: "/"}
   ] },
 
-  { title: "Publications", label: "publication", url: "/publication", subLinks: [
+  { title: "Publications", label: "publication", url: "/", subLinks: [
     { label: 'journal publications', title: 'Journal Publications ', url: '/assets/_01_Elsherbeni_Journal_Articles_August_2024.pdf' },
     { label: 'books', title: 'Books', url: '/assets/_02_Elsherbeni_Books_Book_Chapters_September_2024.pdf' },
     {label: 'invited seminars', title: 'Invited Seminars', url: 'assets/_03_Elsherbeni_Invited_Seminars_September_2024.pdf' },
@@ -45,9 +45,13 @@ export const links = [
     {label: 'short courses', title: 'Short Courses', url: 'assets/_07_Elsherbeni_Short_Courses_September_2024.pdf' }
   ] },
 
-  { title: "Advisees", label: "Advisees", url: "/assets/_11_Elsherbeni_Advisees_September_2024.pdf",},
+  { title: "Advisees", label: "Advisees", url: "/",subLinks:[
+    {label: "Graduate Advisees", title: "Graduate Advisees", url:"/assets/_11_Elsherbeni_Advisees_September_2024.pdf"}
+  ]},
 
-  { title: "Software", label: "software", url: "assets/_06_Elsherbeni_Software_September_2024.pdf" },
+  { title: "Software", label: "software", url: "/", subLinks:[
+    {title: "Software Packages", label:"software packages", url: "assets/_06_Elsherbeni_Software_September_2024.pdf"}
+  ] },
   // { title: 'Career', label: 'career', url: '/career' },
   // { title: 'Projects', label: 'projects', url: '/projects' }
 ];
