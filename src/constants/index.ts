@@ -26,8 +26,8 @@ export const links = [
   ] },
 
   { title: "Teaching", label: "teaching", url: "/", subLinks:[
-    {label: "Undergraduate Courses", title: "Undergraduate Courses", url:"/"},
-    {label: "Graduate Courses", title: "Graduate Courses", url: "/assets/_07_Elsherbeni_Short_Courses_September_2024.pdf"}
+    {label: "Undergraduate Courses", title: "Undergraduate Courses", url:"/assets/_12_Elsherbeni_UGRAD_COURSES_September_2024.pdf"},
+    {label: "Graduate Courses", title: "Graduate Courses", url: "/assets/_13_Elsherbeni_GRAD_COURSES_September_2024.pdf"}
   ] },
 
   { title: "Research", label: "research", url: "/", subLinks: [
