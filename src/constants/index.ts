@@ -32,7 +32,7 @@ export const links = [
 
   { title: "Research", label: "research", url: "/", subLinks: [
     {title: "Research Projects", label: "Research Projects", url: "/"},
-    {title: "Research Topics", label: "Research Topics", url:"/"},
+    {title: "Research Topics", label: "Research Topics", url:"/assets/_15_Elsherbeni_Research_Topics_September_2024.pdf"},
     {title: "Grants", label: "Grants", url: "/assets/_14_Elsherbeni_Grants_September_2024.pdf"}
   ] },
 
