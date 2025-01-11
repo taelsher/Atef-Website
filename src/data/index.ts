@@ -88,7 +88,7 @@ export const NEWS = [
 export const PUBLICATION = [
   {
     title: "Journal Publications",
-    link: "/assets/_01_Elsherbeni_Journal_Articles_August_2024.pdf",
+    link: "/assets/_01_Elsherbeni_Journal_Articles_December_2024.pdf",
   }, 
   {
     title: "Books",
@@ -96,15 +96,15 @@ export const PUBLICATION = [
   },
   {
     title: "Invited Seminars",
-    link: "/assets/_03_Elsherbeni_Invited_Seminars_September_2024.pdf",
+    link: "/assets/_03_Elsherbeni_Invited_Seminars_December_2024.pdf",
   },
   {
     title: "Conference Proceedings",
-    link: "/assets/_04_Elsherbeni_Conference_Proceedings_September_2024.pdf",
+    link: "/assets/_04_Elsherbeni_Conference_Proceedings_December_2024.pdf",
   },
   {
     title: "Conference Abstracts",
-    link: "/assets/_05_Elsherbeni_Conference_Abstracts_September_2024.pdf",
+    link: "/assets/_05_Elsherbeni_Conference_Abstracts_December_2024.pdf",
   },
   {
     title: "Software Packages",

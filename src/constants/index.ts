@@ -37,12 +37,12 @@ export const links = [
   ] },
 
   { title: "Publications", label: "publication", url: "/", subLinks: [
-    { label: 'journal publications', title: 'Journal Publications ', url: '/assets/_01_Elsherbeni_Journal_Articles_August_2024.pdf' },
+    { label: 'journal publications', title: 'Journal Publications ', url: '/assets/_01_Elsherbeni_Journal_Articles_December_2024.pdf' },
     { label: 'books', title: 'Books', url: '/assets/_02_Elsherbeni_Books_Book_Chapters_September_2024.pdf' },
-    {label: 'invited seminars', title: 'Invited Seminars', url: 'assets/_03_Elsherbeni_Invited_Seminars_September_2024.pdf' },
-    {label: 'conference proceedings', title: 'Conference Proceedings', url: 'assets/_04_Elsherbeni_Conference_Proceedings_September_2024.pdf' },
-    {label: 'conference abstracts', title: 'Conference Abstracts', url: 'assets/_05_Elsherbeni_Conference_Abstracts_September_2024.pdf' },
-    {label: 'short courses', title: 'Short Courses', url: 'assets/_07_Elsherbeni_Short_Courses_September_2024.pdf' }
+    {label: 'invited seminars', title: 'Invited Seminars', url: 'assets/_03_Elsherbeni_Invited_Seminars_December_2024.pdf' },
+    {label: 'conference proceedings', title: 'Conference Proceedings', url: 'assets/_04_Elsherbeni_Conference_Proceedings_December_2024.pdf' },
+    {label: 'conference abstracts', title: 'Conference Abstracts', url: 'assets/_05_Elsherbeni_Conference_Abstracts_December_2024.pdf' },
+    {label: 'short courses', title: 'Short Courses', url: 'assets/_07_Elsherbeni_Short_Courses_December_2024.pdf' }
   ] },
 
   { title: "Advisees", label: "Advisees", url: "/",subLinks:[
