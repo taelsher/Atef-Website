@@ -22,7 +22,7 @@ export const data = {
 export const links = [
   { title: "Home", label: "home", url: "/"},
   { title: "Personal", label: "", url: "/", subLinks: [
-    {label: "curriculum viate", title: "Curriculum Vitae", url: "/assets/_00_Elsherbeni_CV_August_2024.pdf"}
+    {label: "curriculum viate", title: "Curriculum Vitae", url: "/assets/_00_Elsherbeni_CV_January_2025.pdf"}
   ] },
 
   { title: "Teaching", label: "teaching", url: "/", subLinks:[
