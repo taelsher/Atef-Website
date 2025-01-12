@@ -26,14 +26,15 @@ export const links = [
   ] },
 
   { title: "Teaching", label: "teaching", url: "/", subLinks:[
-    {label: "Undergraduate Courses", title: "Undergraduate Courses", url:"/assets/_12_Elsherbeni_UGRAD_COURSES_September_2024.pdf"},
-    {label: "Graduate Courses", title: "Graduate Courses", url: "/assets/_13_Elsherbeni_GRAD_COURSES_September_2024.pdf"}
+    {label: "Undergraduate Courses", title: "Undergraduate Courses", url:"/assets/_12_Elsherbeni_UGRAD_COURSES_January_2025.pdf"},
+    {label: "Graduate Courses", title: "Graduate Courses", url: "/assets/_13_Elsherbeni_GRAD_COURSES_January_2025.pdf"},
+    {label: "Invited Presentations", title: "Invited Presentations", url: "/assets/_10_Elsherbeni_Invited_Presentations_January_2025.pdf"}
   ] },
 
   { title: "Research", label: "research", url: "/", subLinks: [
-    {title: "Research Projects", label: "Research Projects", url: "/assets/_16_Elsherbeni_Research_Projects_September_2024.pdf"},
-    {title: "Research Topics", label: "Research Topics", url:"/assets/_15_Elsherbeni_Research_Topics_September_2024.pdf"},
-    {title: "Grants", label: "Grants", url: "/assets/_14_Elsherbeni_Grants_September_2024.pdf"}
+    {title: "Research Projects", label: "Research Projects", url: "/assets/_16_Elsherbeni_Research_Projects_January_2025.pdf"},
+    {title: "Research Topics", label: "Research Topics", url:"/assets/_15_Elsherbeni_Research_Topics_January_2025.pdf"},
+    {title: "Grants", label: "Grants", url: "/assets/_14_Elsherbeni_Grants_January_2025.pdf"}
   ] },
 
   { title: "Publications", label: "publication", url: "/", subLinks: [
@@ -46,7 +47,7 @@ export const links = [
   ] },
 
   { title: "Advisees", label: "Advisees", url: "/",subLinks:[
-    {label: "Graduate Advisees", title: "Graduate Advisees", url:"/assets/_11_Elsherbeni_Advisees_September_2024.pdf"}
+    {label: "Graduate Advisees", title: "Graduate Advisees", url:"/assets/_11_Elsherbeni_Advisees_January_2025.pdf"}
   ]},
 
   { title: "Software", label: "software", url: "/", subLinks:[
