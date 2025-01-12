@@ -51,7 +51,7 @@ export const links = [
   ]},
 
   { title: "Software", label: "software", url: "/", subLinks:[
-    {title: "Software Packages", label:"software packages", url: "/assets/_06_Elsherbeni_Software_October_2024.pdf"}
+    {title: "Software Packages", label:"software packages", url: "/assets/_06_Elsherbeni_Software_January_2025.pdf"}
   ] },
   // { title: 'Career', label: 'career', url: '/career' },
   // { title: 'Projects', label: 'projects', url: '/projects' }

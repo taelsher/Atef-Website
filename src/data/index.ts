@@ -108,7 +108,7 @@ export const PUBLICATION = [
   },
   {
     title: "Software Packages",
-    link: "/assets/_06_Elsherbeni_Software_September_2024.pdf",
+    link: "/assets/_06_Elsherbeni_Software_January_2025.pdf",
   },
   {
     title: "Short Courses",
