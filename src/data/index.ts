@@ -44,7 +44,7 @@ export const LINKS = [
   },
   {
     title: "Honors",
-    url: "/assets/_09_Elsherbeni_Honors_September_2024.pdf", //working on this page
+    url: "/assets/_09_Elsherbeni_Honors_January_2025.pdf", //working on this page
     icon: Badge,
   },
   {
