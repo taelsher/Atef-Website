@@ -12,6 +12,8 @@ export interface AboutProps {
   linkedin: string
   googlescholarlink: string
   googlescholar: string
+  researchgatelink: string
+  researchgate: string
 }
 
 export interface LinksProps {
