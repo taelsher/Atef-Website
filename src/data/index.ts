@@ -34,6 +34,8 @@ export const ABOUT = {
   linkedinlink:"https://www.linkedin.com/in/atef-elsherbeni-4172733/",
   googlescholar:"/assets/googlescholar.png",
   googlescholarlink:"http://scholar.google.com/citations?user=B3mIYBMAAAAJ&hl=en",
+  researchgate:"/assets/researchgate.svg",
+  researchgatelink:"https://www.researchgate.net/profile/Atef-Elsherbeni"
 };
 
 export const LINKS = [
@@ -88,7 +90,7 @@ export const NEWS = [
 export const PUBLICATION = [
   {
     title: "Journal Publications",
-    link: "/assets/_01_Elsherbeni_Journal_Articles_December_2024.pdf",
+    link: "/assets/_01_Elsherbeni_Journal_Articles_July_2026.pdf",
   }, 
   {
     title: "Books",
@@ -100,7 +102,7 @@ export const PUBLICATION = [
   },
   {
     title: "Conference Proceedings",
-    link: "/assets/_04_Elsherbeni_Conference_Proceedings_December_2024.pdf",
+    link: "/assets/_04_Elsherbeni_Conference_Proceedings_January_2025.pdf",
   },
   {
     title: "Conference Abstracts",

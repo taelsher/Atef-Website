@@ -71,6 +71,13 @@ export function Hero() {
                 style={{ width: "30px", height: "30px" }}
               />
             </a>
+            <a href={about.researchgatelink} target="_blank" rel="noopener noreferrer">
+              <img
+                src={about.researchgate}
+                alt="researchgate"
+                style={{ width: "30px", height: "30px" }}
+              />
+            </a>
           </div>
         </div>
 
